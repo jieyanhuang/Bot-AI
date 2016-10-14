@@ -1,11 +1,16 @@
 {
-  "name": "Bot-AI",
-  "version": "0.0.0",
-  "main": "behavior/scripts/index.js",
-  "scripts": {},
-  "license": "UNLICENSED",
-  "private": true,
-  "dependencies": {
-    "initai-node": "https://gitlab.com/init-devs/node-client/repository/archive.tar.gz?ref=master"
-  }
+	"name": "Bot-AI",
+	"version": "0.0.0",
+	"main": "behavior/scripts/index.js",
+	"scripts": {
+		"start": "node ./node_modules/initai-cli/programs/iai-watch"
+	},
+	"license": "UNLICENSED",
+	"private": true,
+	"dependencies": {
+		"initai-node": "https://gitlab.com/init-devs/node-client/repository/archive.tar.gz?ref=master"
+	},
+	"devDependencies": {
+		"initai-cli": "^0.3.0"
+	}
 }
